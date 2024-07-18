@@ -1,27 +1,33 @@
 # Maketingagency
+# Installation 
+ng new maketingagency --style=css 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
 
-## Development server
+# Installation des dependances
+npm install
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Demarer le projet
+ng serve
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+le projet comporte 3 components dont header main et le footer
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# header
+ng generate components header
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# main
+ng generate components main
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# footer
+ng generate components footer
 
-## Further help
+# module
+ng generate module blog
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+ng generate module section
+
+ng generate module section
+
